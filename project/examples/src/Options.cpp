@@ -129,6 +129,10 @@ bool Options::ParseCommandLine(int argc, char * argv[])
     {
         retsVersion = RETS_1_8_0;
     }
+    else if (mRetsVersionString == "1.9.0")
+    {
+        retsVersion = RETS_1_9_0;
+    }
     else
     {
         retsVersion = RETS_1_0;

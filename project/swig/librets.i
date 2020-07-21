@@ -1707,7 +1707,9 @@ enum RetsVersion
     RETS_1_7,
     RETS_1_7_2,
     RETS_1_8,
-    RETS_1_8_0
+    RETS_1_8_0,
+    RETS_1_9,
+    RETS_1_9_0
 };
 
 enum EncodingType

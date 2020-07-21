@@ -282,6 +282,8 @@ public class Options
                 case RetsVersion.RETS_1_7_2: return "1.7.2";
                 case RetsVersion.RETS_1_8: return "1.8";
                 case RetsVersion.RETS_1_8_0: return "1.8.0";
+                case RetsVersion.RETS_1_9: return "1.9";
+                case RetsVersion.RETS_1_8_0: return "1.9.0";
             }
             return "1.0"; 
         }
@@ -305,6 +307,12 @@ public class Options
 
             if (value == "1.8.0")
                 mRetsVersion = RetsVersion.RETS_1_8_0;
+
+            if (value == "1.9")
+                mRetsVersion = RetsVersion.RETS_1_9;
+
+            if (value == "1.9.0")
+                mRetsVersion = RetsVersion.RETS_1_9_0;
         }
     }
 
